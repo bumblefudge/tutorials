@@ -32,7 +32,7 @@ However, if you prefer a direct local installation, instructions follow.
   pitfalls in the steps to follow.
 
   ```
-  python -m pip install --upgrade pip setuptools numpy
+  python -m pip install --upgrade pip setuptools numpy testresources
   ```
 
 * Clone this repository.
@@ -45,7 +45,15 @@ However, if you prefer a direct local installation, instructions follow.
 * Install the requirements.
 
   ```
-  python -m pip install -r binder/requirements.txt
+  python -m pip install -r binder/requirements-dev.txt
+  ```
+  ```
+  python -m pip install -r binder/requirements-preview.txt
+  ```
+  ```
+  python -m pip install -r binder/runtime.txt
+  ```
+  ```
   python -m pip install -e ./bluesky-tutorial-utils  # MUST use -e here
   ```
 

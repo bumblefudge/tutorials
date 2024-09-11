@@ -3,3 +3,5 @@ six  # looks like it's an undeclared dependency of docker Python bindings
 nbdime
 nbstripout
 pre-commit
+jupyterlab >=3
+
