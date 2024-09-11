@@ -32,7 +32,7 @@ However, if you prefer a direct local installation, instructions follow.
   pitfalls in the steps to follow.
 
   ```
-  python -m pip install --upgrade pip setuptools numpy
+  python -m pip install --upgrade pip setuptools numpy testresources
   ```
 
 * Clone this repository.
