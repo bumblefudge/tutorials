@@ -51,9 +51,6 @@ However, if you prefer a direct local installation, instructions follow.
   python -m pip install -r binder/requirements-preview.txt
   ```
   ```
-  python -m pip install -r binder/runtime.txt
-  ```
-  ```
   python -m pip install -e ./bluesky-tutorial-utils  # MUST use -e here
   ```
 
